@@ -1,0 +1,58 @@
+site_name: Chalice Help Center
+site_description: Setup guides and documentation for activating Chalice across your platforms.
+site_url: https://help.chalice.ai/
+
+theme:
+  name: material
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    scheme: default
+    primary: black
+    accent: amber
+  font:
+    text: Inter
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Running Display: getting-started/running-display.md
+  - The Trade Desk:
+      - the-trade-desk/index.md
+  - DV360:
+      - dv360/index.md
+  - Yahoo DSP:
+      - yahoo-dsp/index.md
+  - Pontiac:
+      - pontiac/index.md
+  - Index Exchange:
+      - index-exchange/index.md
+  - OpenX:
+      - openx/index.md
