@@ -4,8 +4,7 @@ site_url: https://help.chalice.ai/
 
 theme:
   name: material
-  icon:
-    logo: material/book-open-page-variant
+  logo: assets/logo.png
   palette:
     scheme: default
     primary: black
