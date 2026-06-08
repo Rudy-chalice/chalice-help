@@ -1,5 +1,8 @@
 # Running Display (with or without enhancements)
 
+!!! warning "⭐ Example article (needs editing)"
+    Placeholder content from setup. Replace it with the real guide before sharing with clients.
+
 This guide walks through getting a Chalice display deal live, and how to optionally turn on creative enhancements at no extra cost. Replace the placeholder text with your own steps as you build this out.
 
 ## Before you start
