@@ -48,6 +48,9 @@ nav:
       - Running Display: getting-started/running-display.md
   - The Trade Desk:
       - the-trade-desk/index.md
+      - Accepting a PMP Deal: the-trade-desk/accepting-a-pmp-deal.md
+      - Reaccepting a PMP Deal: the-trade-desk/reaccepting-a-pmp-deal.md
+      - Ad Group Best Practices for PMP Deals: the-trade-desk/ad-group-best-practices-pmp.md
   - DV360:
       - dv360/index.md
   - Yahoo DSP:
