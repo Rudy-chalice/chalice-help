@@ -32,3 +32,17 @@
 }
 .chalice-hero h1 { color: #ffffff; font-weight: 800; margin: 0 0 .4rem; }
 .chalice-hero p { color: #cfcfcf; margin: 0; }
+
+/* Tip admonition — Chalice gold (#c9a24b) */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #c9a24b;
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(201, 162, 75, 0.12);
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: #c9a24b;
+}
