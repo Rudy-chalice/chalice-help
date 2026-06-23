@@ -17,54 +17,53 @@ After you [accept the PMP deal in your Deal Desk](accepting-a-pmp-deal.md), clic
 
 ## Step 2. Create a new Ad Group
 
-Select **Start with Ad Group Name** when prompted.
+From your campaign overview, click **+ Create ad group**.
+
+![Campaign overview showing Create ad group button](assets/ttd-campaign-overview.jpg)
 
 ---
 
-## Step 3. Enter the Ad Group name and add it
+## Step 3. Enter the Ad Group name and configure settings
 
-Enter a descriptive Ad Group name that references the deal (e.g., `Chalice PMP - [Deal ID] - [Campaign]`). Click **Add Ad Groups**.
+Enter a descriptive Ad Group name that references the deal (e.g., `Chalice PMP - [Deal ID] - [Campaign]`). Complete the remaining required settings and proceed to the ad group overview.
 
 ---
 
-## Step 4. Edit Inventory settings
+## Step 4. Open the Forward Market & Deals tile
 
-Once your Ad Group appears in the list, click **Edit Inventory**.
+In the ad group overview, click the **Forward Market & Deals** tile.
+
+![Forward Market & Deals tile in ad group overview](assets/ttd-fwd-market-deals.jpg)
 
 ---
 
 ## Step 5. Set inventory to "Deals only" and add the deal
 
-1. Click **Deals only**
-2. Click **Add Deals**
-3. Set the following filters:
+1. Click **+ Add deals**
+2. Set the following filters:
     - **View by:** Deals
     - **Deal Type:** Endeavor
     - **Deal Status:** All
-    - **Selling Party:** Chalice
+    - **Selling Party:** The SSP the deal was created in
     - Or search by Deal ID using the search icon
-4. Select your deal by clicking the **+** icon, then click **Add selected deals**
+3. Select your deal by clicking the **+** icon, then click **Add selected deals**
+
+![Deals browser with Selling party filter](assets/ttd-deals-browser.jpg)
 
 ---
 
 ## Step 6. Confirm and save
 
-Back on the **Manage Inventory** screen, confirm your deal is selected. Click **Save**.
+Back on the **Forward Market & Deals** screen, confirm your deal appears under **Targeted deals** and that **Marketplace** is set to **Deals only**. Click **Save**.
 
 ---
 
-## Step 7. Generate Ad Groups
+## Step 7. Verify in your Ad Group
 
-Once all Ad Group settings are configured, click **Generate Ad Groups**.
-
----
-
-## Step 8. Verify in your Campaign
-
-Navigate to your Campaign. In the Ad Group, under **Inventory Selection**, you should see the deal listed and selected.
+Navigate back to your ad group. The **Forward Market & Deals** tile should show your deal as Endeavor Targeted.
 
 !!! warning
-    If the deal does not appear under Inventory Selection, go back and confirm the deal was accepted in the Deal Desk and that "Deals only" was selected in Step 5.
+    If the deal does not appear, go back and confirm the deal was accepted in the Deal Desk and that "Deals only" is set in the Forward Market & Deals tile.
 
 ---
 
