@@ -8,11 +8,15 @@ Below are the steps to accept a PMP deal in The Trade Desk after your Chalice ac
 
 Open the **Deals Desk** icon on the left side panel. After selecting it, search for the Deal ID provided by your Chalice account manager.
 
+![Deal Desk list view](assets/ttd-deal-desk-overview.jpg)
+
 ---
 
 ## Step 2. Review the deal terms
 
 Open the deal and review the contract terms. If everything looks correct, select **Accept deal**.
+
+![Deal detail page with Accept deal button](assets/ttd-deal-detail.jpg)
 
 ---
 
