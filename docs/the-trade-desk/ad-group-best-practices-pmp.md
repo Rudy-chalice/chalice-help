@@ -11,6 +11,8 @@ After you [accept the PMP deal in your Deal Desk](accepting-a-pmp-deal.md), clic
 !!! tip
     Enabling "Prioritize Deal" ensures TTD sends eligible bid requests to this deal before considering open exchange inventory.
 
+![Prioritize deal toggle in Endeavor Performance tab](assets/ttd-prioritize-deal.jpg)
+
 ---
 
 ## Step 2. Create a new Ad Group
