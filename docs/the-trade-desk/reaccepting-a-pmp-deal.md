@@ -8,6 +8,8 @@ Below are the steps to reaccept a PMP deal when your Chalice account manager has
 
 Open the **Deals Desk** icon on the left side panel. After selecting it, search for the Deal ID provided by your Chalice account manager.
 
+![Deal Desk list view](assets/ttd-deal-desk-overview.jpg)
+
 ---
 
 ## Step 2. Open the deal and review the proposed changes
@@ -15,6 +17,8 @@ Open the **Deals Desk** icon on the left side panel. After selecting it, search 
 Select the deal by clicking the deal name.
 
 On the right side of the window, under **Recommended actions**, click **Review changes** to view the updates proposed by the seller.
+
+![Deal detail page](assets/ttd-deal-detail.jpg)
 
 ---
 
