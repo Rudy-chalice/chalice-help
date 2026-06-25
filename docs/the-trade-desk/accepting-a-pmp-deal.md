@@ -41,5 +41,4 @@ The deal will now be available to assign within your Ad Groups.
 
 ## Related articles
 
-- [Reaccepting a PMP Deal After Terms Have Been Updated](reaccepting-a-pmp-deal.md)
 - [Ad Group Best Practices for PMP Deals (TTD)](ad-group-best-practices-pmp.md)
