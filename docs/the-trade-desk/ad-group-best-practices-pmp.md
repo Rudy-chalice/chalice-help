@@ -57,34 +57,32 @@ Back on the **Manage Inventory** screen, confirm your deal is selected. Click **
 
 Once all Ad Group settings are configured, click **Generate Ad Groups**.
 
-### Suggested CPM bids by country and channel
-
-Starting-point CPM bids by market and format. Use the selector to view them in another currency. Rates refresh from a live source on load, with a recent fallback.
-
-<div class="bid-matrix">
-  <p style="margin-bottom:0.75rem;">
-    <label for="bid-currency" style="margin-right:6px;">Currency</label>
-    <select id="bid-currency">
-      <option value="USD">USD ($)</option>
-      <option value="EUR">EUR (&euro;)</option>
-      <option value="GBP">GBP (&pound;)</option>
-      <option value="DKK">DKK (kr)</option>
-      <option value="NOK">NOK (kr)</option>
-    </select>
-    <span id="bid-rate-note" style="margin-left:8px; font-size:0.8em; opacity:0.7;"></span>
-  </p>
-  <table id="bid-table">
-    <thead><tr><th>Country</th><th>Display CPM</th><th>Video CPM</th></tr></thead>
-    <tbody>
-      <tr><td>Denmark</td><td class="bid" data-usd="1">$1.00</td><td class="bid" data-usd="4">$4.00</td></tr>
-      <tr><td>France</td><td class="bid" data-usd="4">$4.00</td><td class="bid" data-usd="5">$5.00</td></tr>
-      <tr><td>Norway</td><td class="bid" data-usd="5">$5.00</td><td class="bid" data-usd="6">$6.00</td></tr>
-      <tr><td>Spain</td><td class="bid" data-usd="3">$3.00</td><td class="bid" data-usd="4">$4.00</td></tr>
-      <tr><td>UK</td><td class="bid" data-usd="3">$3.00</td><td class="bid" data-usd="7">$7.00</td></tr>
-      <tr><td>US</td><td class="bid" data-usd="4">$4.00</td><td class="bid" data-usd="7">$7.00</td></tr>
-    </tbody>
-  </table>
-</div>
+<details class="bid-matrix" open>
+<summary style="cursor:pointer; font-weight:600;">Suggested CPM bids by country and channel</summary>
+<p>Starting-point CPM bids by market and format. Use the selector to view them in another currency. Rates refresh from a live source on load, with a recent fallback.</p>
+<p style="margin:0.75rem 0;">
+<label for="bid-currency" style="margin-right:6px;">Currency</label>
+<select id="bid-currency">
+<option value="USD">USD ($)</option>
+<option value="EUR">EUR (&euro;)</option>
+<option value="GBP">GBP (&pound;)</option>
+<option value="DKK">DKK (kr)</option>
+<option value="NOK">NOK (kr)</option>
+</select>
+<span id="bid-rate-note" style="margin-left:8px; font-size:0.8em; opacity:0.7;"></span>
+</p>
+<table id="bid-table">
+<thead><tr><th>Country</th><th>Display CPM</th><th>Video CPM</th></tr></thead>
+<tbody>
+<tr><td>Denmark</td><td class="bid" data-usd="1">$1.00</td><td class="bid" data-usd="4">$4.00</td></tr>
+<tr><td>France</td><td class="bid" data-usd="4">$4.00</td><td class="bid" data-usd="5">$5.00</td></tr>
+<tr><td>Norway</td><td class="bid" data-usd="5">$5.00</td><td class="bid" data-usd="6">$6.00</td></tr>
+<tr><td>Spain</td><td class="bid" data-usd="3">$3.00</td><td class="bid" data-usd="4">$4.00</td></tr>
+<tr><td>UK</td><td class="bid" data-usd="3">$3.00</td><td class="bid" data-usd="7">$7.00</td></tr>
+<tr><td>US</td><td class="bid" data-usd="4">$4.00</td><td class="bid" data-usd="7">$7.00</td></tr>
+</tbody>
+</table>
+</details>
 
 <script>
 (function(){
