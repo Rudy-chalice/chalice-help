@@ -57,7 +57,7 @@ Back on the **Manage Inventory** screen, confirm your deal is selected. Click **
 
 Once all Ad Group settings are configured, click **Generate Ad Groups**.
 
-<details class="bid-matrix" open>
+<details class="bid-matrix">
 <summary style="cursor:pointer; font-weight:600;">Suggested CPM bids by country and channel</summary>
 <p>Starting-point CPM bids by market and format. Use the selector to view them in another currency. Rates refresh from a live source on load, with a recent fallback.</p>
 <p style="margin:0.75rem 0;">
