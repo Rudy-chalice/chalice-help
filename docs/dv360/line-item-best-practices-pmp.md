@@ -19,9 +19,9 @@ In your campaign, create a new **Insertion Order**. Set the budget, pacing, and 
 
 ---
 
-## Step 3. Create a Display line item
+## Step 3. Create a line item
 
-Inside the Insertion Order, create a new **Display line item**. Give it a descriptive name that references the deal, for example `Chalice PMP - [Deal ID] - [Campaign]`.
+Inside the Insertion Order, create a new **line item**. Give it a descriptive name that references the deal, for example `Chalice PMP - [Deal ID] - [Campaign]`.
 
 ---
 
@@ -39,7 +39,7 @@ Inside the Insertion Order, create a new **Display line item**. Give it a descri
 
 ## Step 5. Set your bid and keep targeting broad
 
-Set your budget, flight dates, and bid on the line item. Keep other targeting broad at launch. Layering on too many filters early can choke delivery before the model has data to optimize against.
+Set your budget, flight dates, and bid on the line item. Chalice suggests leveraging a fixed bid. Keep other targeting broad at launch. Layering on too many filters early can choke delivery before the model has data to optimize against.
 
 <details class="bid-matrix">
 <summary style="cursor:pointer; font-weight:600;">Suggested CPM bids by country and channel</summary>
