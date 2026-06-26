@@ -1,41 +1,70 @@
-# Deal Desk: Accepting a PMP Deal in DV360
+﻿# Deal Desk: Accepting a PMP Deal in DV360
 
-Below are the steps to accept a PMP deal in Display & Video 360 after your Chalice account manager has pushed the deal to your DV360 partner or advertiser.
-
-!!! note
-    Screenshots are being added. Labels reflect the current DV360 layout and may shift between releases, so check the equivalent section if something looks different.
+After your Chalice account manager pushes a PMP deal to your DV360 seat, you'll receive it in the **Negotiations** section of Inventory. The deal will show an **Action required** status until you accept it. This page walks through the full acceptance flow.
 
 ---
 
-## Step 1. Locate the deal
+## Step 1. Go to Inventory > Negotiations
 
-In your advertiser, open **Inventory** in the left side panel, then select **My Inventory**. Search for the Deal ID provided by your Chalice account manager.
+In the left side panel, expand **Inventory** and select **Negotiations**.
 
----
+![DV360 Negotiations page showing a deal with Action required status](assets/pmp-step1-negotiations.png)
 
-## Step 2. Review the deal terms
-
-Open the deal and review the terms, including the floor price and the inventory source. If everything looks correct, continue to the deal status settings.
-
----
-
-## Step 3. Set the deal status to active
-
-Confirm the deal is set to **Active** so it can serve. A deal left paused will not deliver, even if it is attached to a line item.
+You'll see a list of all pending deals. Look for the deal name your Chalice account manager provided — it will appear with a status of **Action required** and the seller listed as **Chalice**.
 
 !!! tip
-    If you want the deal limited to specific advertisers under the partner, set that scope here rather than at the line item level.
+    The **Status** column is filterable. If you don't see the deal, make sure the filter includes **Action required**.
 
 ---
 
-## Step 4. Confirm the deal is available
+## Step 2. Open the deal
 
-Once active, the deal is available to attach within your line items under **Inventory source**.
+Click the deal name in the **Name** column to open the deal panel on the right side of the screen.
 
-The deal is now ready to assign. See [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md) for the recommended setup.
+The panel shows the seller, commitment type, buyer account, and exchange. Below that is a proposal from Chalice requesting your acceptance, with a table listing the deal name, Deal ID, delivery method, floor rate, and exchange.
+
+You'll see an **Accept** button and an **Archive** link below the proposal message.
+
+---
+
+## Step 3. Accept and confirm
+
+Click **Accept**. A confirmation dialog will appear:
+
+> **Agree to terms?**
+> By accepting this proposal, I agree to the negotiated terms.
+
+Click **Agree** to finalize.
+
+---
+
+## Step 4. Acceptance confirmed
+
+Once accepted, the panel updates with a green confirmation banner:
+
+![Deal acceptance confirmation showing Thank you! The proposal is finalized.](assets/pmp-step3-confirmed.png)
+
+The message reads **"Thank you! The proposal is finalized. Deal ID created."** The deal is removed from the **Action required** queue in Negotiations.
+
+---
+
+## Step 5. Verify the deal in My Inventory
+
+Navigate to **Inventory > My Inventory** to confirm the deal is now live in your seat.
+
+![My Inventory page showing the accepted PMP deal](assets/pmp-step4-inventory.png)
+
+The deal will appear near the top of the list. Confirm the Deal ID matches what your account manager provided.
+
+---
+
+## Next step
+
+The deal is now accepted and available to use. See [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md) for how to attach it to a line item and configure targeting correctly.
 
 ---
 
 ## Related articles
 
 - [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md)
+- [Opting into the Appropriate Exchange](opting-into-the-appropriate-exchange.md)
