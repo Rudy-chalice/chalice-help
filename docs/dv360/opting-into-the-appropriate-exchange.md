@@ -1,4 +1,4 @@
-# DV360: Opting into the Appropriate Exchange
+﻿# DV360: Opting into the Appropriate Exchange
 
 To enable the appropriate exchange for direct targeting within your DV360 seat, follow the steps below. You will need admin access to the partner to complete this process.
 
@@ -8,11 +8,15 @@ To enable the appropriate exchange for direct targeting within your DV360 seat, 
 
 Go to **Partner**, then the **Settings** page.
 
+![Partner settings navigation in DV360](assets/dv360-step1-settings.png)
+
 ---
 
 ## Step 2. Open Basic Details and find Exchanges
 
 Click **Basic Details**, then scroll down to the **Exchanges** option.
+
+![Basic Details page showing the Exchanges section](assets/dv360-step2-exchanges.png)
 
 ---
 
