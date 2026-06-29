@@ -1,5 +1,16 @@
 # Ad Group Best Practices for PMP Deals in TTD
 
+!!! note "What you're activating: Chalice sell-side decisioning"
+    Chalice PMP deals run on sell-side decisioning. Instead of waiting for a DSP to filter requests and bid, Chalice applies your custom AI decisioning upstream, closer to the impression where the signal is cleanest.
+
+    Chalice calls this containerization. Your decisioning is packaged into a container that runs on the sell side, scores each impression against your outcomes, and curates inventory in real time. Less latency, less data loss, better signal.
+
+    That's why this guide points your ad group at the Chalice deal only. The quality and relevance work already happened sell-side, so you keep budget on that curated deal instead of competing with open exchange.
+
+    New to the concept? See Index Exchange on [how sell-side decisioning works](https://www.indexexchange.com/index-explains/how-does-sell-side-decisioning-work/) and Chalice's Freddie Turner on [AI, trust, and the future of programmatic](https://newdigitalage.co/ai/freddie-turner-ai-trust-and-the-future-of-programmatic/).
+
+![Sell-side decisioning flow: publisher bid requests pass through the Chalice Bidding Agent on the sell side, which shapes demand and supply and scores every impression, producing a curated PMP deal that your TTD ad group bids on.](assets/ssd-flow.svg)
+
 Follow these steps to create a new Ad Group that targets a Chalice PMP deal exclusively. This ensures your budget is directed to the deal inventory and not competing with open exchange.
 
 ---
