@@ -123,4 +123,5 @@ Open the line item and confirm the Chalice deal appears under **Inventory source
 
 ## Related articles
 
+- [DV360 Deal Setup Best Practices](deal-setup-best-practices.md)
 - [Accepting a PMP Deal in DV360](accepting-a-pmp-deal.md)
