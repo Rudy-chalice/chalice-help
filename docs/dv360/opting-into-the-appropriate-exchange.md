@@ -39,4 +39,4 @@ Go into your line items and make sure the appropriate exchange is checked under 
 ## Related articles
 
 - [Accepting a PMP Deal in DV360](accepting-a-pmp-deal.md)
-- [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md)
+- [Line Item Setup Guide for PMP Deals in DV360](line-item-setup-guide-pmp.md)

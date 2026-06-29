@@ -60,11 +60,11 @@ The deal will appear near the top of the list. Confirm the Deal ID matches what 
 
 ## Next step
 
-The deal is now accepted and available to use. See [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md) for how to attach it to a line item and configure targeting correctly.
+The deal is now accepted and available to use. See [Line Item Setup Guide for PMP Deals in DV360](line-item-setup-guide-pmp.md) for how to attach it to a line item and configure targeting correctly.
 
 ---
 
 ## Related articles
 
-- [Line Item Best Practices for PMP Deals in DV360](line-item-best-practices-pmp.md)
+- [Line Item Setup Guide for PMP Deals in DV360](line-item-setup-guide-pmp.md)
 - [Opting into the Appropriate Exchange](opting-into-the-appropriate-exchange.md)

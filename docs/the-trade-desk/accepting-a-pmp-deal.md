@@ -41,4 +41,4 @@ The deal will now be available to assign within your Ad Groups.
 
 ## Related articles
 
-- [Ad Group Best Practices for PMP Deals (TTD)](ad-group-best-practices-pmp.md)
+- [Ad Group Setup Guide for PMP Deals (TTD)](ad-group-setup-guide-pmp.md)

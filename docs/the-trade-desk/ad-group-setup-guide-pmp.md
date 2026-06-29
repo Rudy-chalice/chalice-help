@@ -1,60 +1,76 @@
-# Line Item Best Practices for PMP Deals in DV360
+# Ad Group Setup Guide for PMP Deals in TTD
 
 !!! note "What you're activating: Chalice sell-side decisioning"
     Chalice PMP deals run on sell-side decisioning. Instead of waiting for a DSP to filter requests and bid, Chalice applies your custom AI decisioning upstream, closer to the impression where the signal is cleanest.
 
     Chalice calls this containerization. Your decisioning is packaged into a container that runs on the sell side, scores each impression against your outcomes, and curates inventory in real time. Less latency, less data loss, better signal.
 
-    That's why this guide points your line item at the Chalice deal only. The quality and relevance work already happened sell-side, so you keep budget on that curated deal instead of competing with open exchange.
+    That's why this guide points your ad group at the Chalice deal only. The quality and relevance work already happened sell-side, so you keep budget on that curated deal instead of competing with open exchange.
 
     New to the concept? See Index Exchange on [how sell-side decisioning works](https://www.indexexchange.com/index-explains/how-does-sell-side-decisioning-work/) and Chalice's Freddie Turner on [AI, trust, and the future of programmatic](https://newdigitalage.co/ai/freddie-turner-ai-trust-and-the-future-of-programmatic/).
 
-![Sell-side decisioning flow: publisher bid requests pass through the Chalice Bidding Agent on the sell side, which shapes demand and supply and scores every impression, producing a curated PMP deal that your DV360 line item bids on.](assets/ssd-flow.svg)
+![Sell-side decisioning flow: publisher bid requests pass through the Chalice Bidding Agent on the sell side, which shapes demand and supply and scores every impression, producing a curated PMP deal that your TTD ad group bids on.](assets/ssd-flow.svg)
 
-Follow these steps to set up a line item that targets a Chalice PMP deal exclusively. This keeps your budget directed to the deal inventory instead of competing on the open exchange.
-
-!!! note
-    DV360 uses Insertion Orders and Line Items rather than Ad Groups. Screenshots are being added, and labels may shift between releases.
+Follow these steps to create a new Ad Group that targets a Chalice PMP deal exclusively. This ensures your budget is directed to the deal inventory and not competing with open exchange.
 
 ---
 
-## Step 1. Accept the deal first
+## Step 1. Enable "Prioritize Deal" on the Endeavor
 
-Before building the line item, make sure the deal is accepted and active. See [Accepting a PMP Deal in DV360](accepting-a-pmp-deal.md).
-
----
-
-## Step 2. Create an Insertion Order
-
-In your campaign, create a new **Insertion Order**. Set the budget, pacing, and flight dates at the IO level.
-
----
-
-## Step 3. Create a line item
-
-Inside the Insertion Order, create a new **line item**. Give it a descriptive name that references the deal, for example `Chalice PMP - [Deal ID] - [Campaign]`.
-
----
-
-## Step 4. Set the inventory source to the deal
-
-1. Open the line item's **Inventory source** settings.
-2. Choose to target **Deals and inventory packages** only, not open exchange.
-3. Search for your deal by name or Deal ID.
-4. Select the Chalice deal and add it.
+After you [accept the PMP deal in your Deal Desk](accepting-a-pmp-deal.md), click on your deal and go to **Endeavor Performance**. Scroll down and toggle **Prioritize Deal** to on.
 
 !!! tip
-    Targeting the deal only is what keeps spend on the curated inventory. If you leave open exchange enabled, the line item can spend outside the deal.
+    Enabling "Prioritize Deal" ensures TTD sends eligible bid requests to this deal before considering open exchange inventory.
+
+![Prioritize deal toggle in Endeavor Performance tab](assets/ttd-prioritize-deal.jpg)
 
 ---
 
-## Step 5. Set your bid and keep targeting broad
+## Step 2. Create a new Ad Group
 
-Set your budget, flight dates, and bid on the line item. Chalice suggests leveraging a fixed bid. Keep other targeting broad at launch. Layering on too many filters early can choke delivery before the model has data to optimize against.
+Select **Start with Ad Group Name** when prompted.
+
+---
+
+## Step 3. Enter the Ad Group name and add it
+
+Enter a descriptive Ad Group name that references the deal (e.g., `Chalice PMP - [Deal ID] - [Campaign]`). Click **Add Ad Groups**.
+
+---
+
+## Step 4. Edit Inventory settings
+
+Once your Ad Group appears in the list, click **Edit Inventory**.
+
+---
+
+## Step 5. Set inventory to "Deals only" and add the deal
+
+1. Click **Deals only**
+2. Click **Add Deals**
+3. Set the following filters:
+    - **View by:** Deals
+    - **Deal Type:** Endeavor
+    - **Deal Status:** All
+    - **Selling Party:** Chalice
+    - Or search by Deal ID using the search icon
+4. Select your deal by clicking the **+** icon, then click **Add selected deals**
+
+---
+
+## Step 6. Confirm and save
+
+Back on the **Manage Inventory** screen, confirm your deal is selected. Click **Save**.
+
+---
+
+## Step 7. Generate Ad Groups
+
+Once all Ad Group settings are configured, click **Generate Ad Groups**.
 
 <details class="bid-matrix">
 <summary style="cursor:pointer; font-weight:600;">Suggested CPM bids by country and channel</summary>
-<p>Your Chalice support team will provide tailored bid recommendations for your line item. Standard bid guidance by country is listed below. Use the selector to view it in another currency.</p>
+<p>Your Chalice support team will provide tailored bid recommendations for your ad group. Standard bid guidance by country is listed below. Use the selector to view it in another currency.</p>
 <p style="margin:0.75rem 0;">
 <label for="bid-currency" style="margin-right:6px;">Currency</label>
 <select id="bid-currency">
@@ -106,21 +122,15 @@ Set your budget, flight dates, and bid on the line item. Chalice suggests levera
 
 ---
 
-## Step 6. Save and set live
+## Step 8. Verify in your Campaign
 
-Save the line item, then set both the line item and the Insertion Order to live.
-
----
-
-## Step 7. Verify the deal is attached
-
-Open the line item and confirm the Chalice deal appears under **Inventory source**.
+Navigate to your Campaign. In the Ad Group, under **Inventory Selection**, you should see the deal listed and selected.
 
 !!! warning
-    If the deal does not appear, go back and confirm it was accepted and set to active in the deal library, and that you selected "Deals only" in Step 4.
+    If the deal does not appear under Inventory Selection, go back and confirm the deal was accepted in the Deal Desk and that "Deals only" was selected in Step 5.
 
 ---
 
 ## Related articles
 
-- [Accepting a PMP Deal in DV360](accepting-a-pmp-deal.md)
+- [Accepting a PMP Deal in TTD](accepting-a-pmp-deal.md)
