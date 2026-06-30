@@ -30,12 +30,7 @@ New to the setup? See the [Line Item Setup Guide for PMP Deals in DV360](line-it
 
 6. **Confirm the correct deal is on the line item.** Check the Deals and inventory packages section of the line item.
 
-    <video controls preload="metadata" poster="../assets/dv360-ts-deal-assignment-poster.jpg" width="100%">
-      <source src="../assets/dv360-ts-deal-assignment.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    If the clip does not play inline, [open it in a new tab](assets/dv360-ts-deal-assignment.mp4).
+    ![Assigning the deal in the Deals and inventory packages section](assets/dv360-ts-deal-assignment.gif)
 
 7. **Target the deal only, not open auction.** Make sure the line item targets the deal and not public inventory.
 
